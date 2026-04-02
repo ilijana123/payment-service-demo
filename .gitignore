@@ -1,16 +1,15 @@
-# Environment files
+# Environments
 .env
-*/.env
+.env.*
 
 # Python
 __pycache__/
-*.pyc
 .venv/
+venv/
 
-# Node
+# Node/JavaScript
 node_modules/
-dist/
-.next/
 
-# Alembic versions (optional, some teams commit these)
-# backend/alembic/versions/
+# Build/Distribution Artefacts
+dist/
+build/

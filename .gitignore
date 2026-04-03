@@ -4,6 +4,7 @@
 
 # Python
 __pycache__/
+*.pyc
 .venv/
 venv/
 
@@ -13,3 +14,25 @@ node_modules/
 # Build/Distribution Artefacts
 dist/
 build/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Test Coverage
+coverage/
+
+# Database
+*.db
+*.sqlite3
+
+# Django
+staticfiles/

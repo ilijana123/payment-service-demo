@@ -1,6 +1,6 @@
 from enum import Enum
 
-class ModelName(str, Enum):
-    alexnet = "alexnet"
-    resnet = "resnet"
-    lenet = "lenet"
+class CardReportType(str,Enum):
+    STOLEN="stolen"
+    LOST="lost"
+    MANUAL_BLOCK="manual_block"
